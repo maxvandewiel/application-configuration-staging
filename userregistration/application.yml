@@ -4,7 +4,7 @@ spring:
   #application:
     #name: userregistration
   profiles:
-    active: dev,messagesource,mongodb,rabbitmq,swagger2
+    active: staging,messagesource,mongodb,rabbitmq,swagger2
   eureka:
     client:
       registerWithEureka: true
